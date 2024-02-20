@@ -232,7 +232,7 @@ nav a {
 
 /*_______________________*/
 
-@media (width <=849px) {
+@media (width <=917px) {
   nav ul {
     position: absolute;
     flex-direction: column;
@@ -273,13 +273,13 @@ nav a {
 
 }
 
-@media (849px <=width <=960px) {
+@media (849px <=width <=1300px) {
   nav .enlaces {
     gap: 1em;
   }
 }
 
-@media (960px <=width <=1099px) {
+@media (1300px <=width <=1099px) {
 
   nav .enlaces {
     gap: 2em;
@@ -376,7 +376,7 @@ ul.breadcrumb li a:hover {
   transition: all 1s cubic-bezier(.68, -0.55, .27, 1.55);
   padding: 0 4em;
   /* _______ Transición 1 _______*/
-  left: -150%;
+  /* left: -150%; */
   /* _______ Transición 1 _______*/
 }
 
@@ -471,7 +471,7 @@ div.botones {
   border-left: 2px solid #93C01F;
   padding: 2em;
   color: #323437;
-  left: -80%;
+  /* left: -80%; */
   /* _______ Transición 2 _______*/
   transition: all 0.9s 0.1s ease-in-out;
   /* _______ Transición 2 _______*/
@@ -533,7 +533,7 @@ div.botones {
   position: relative;
   /*Transición*/
   transition: all 0.9s 0.1s ease-in-out;
-  left: 100%;
+  /* left: 100%; */
 }
 
 .carrousel-transicion {

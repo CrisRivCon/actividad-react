@@ -12,7 +12,7 @@ function Logo() {
                     alt="logo de la Asociación, la cara de un gato en negro"/></a>
             </div>
                     </>
-                    )
+    )
 }
 
 export default Logo

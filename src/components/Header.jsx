@@ -1,7 +1,9 @@
 import '../styles/estilos.css'
 
 import Logo from './Logo.jsx'
+import Hamburguesa from '../assets/icon/menu-hamburguesa.svg'
 import Temas from './CambioColores.jsx'
+import BotonSecundario from './BotonSecundario.jsx'
 
 function Header() {
   return (
@@ -24,13 +26,13 @@ function Header() {
                         <Temas/>
                     </li>
                     <li className="boton-colabora-menu">
-                        <a href="#seccion-3-colabora"><span className="boton-secundario boton-nav">COLABORA</span></a>
+                        <BotonSecundario texto="COLABORA" url="#seccion-3-colabora"/>
                     </li>
                 </ul>
                 <img 
                     className="icono-menu" 
                     id="abrir-menu" 
-                    src="./img/icon/menu-hamburguesa.svg" 
+                    src={Hamburguesa}
                     title="desplegar menú"
                     alt="desplegar menú"/>
             </div>
