@@ -3,7 +3,7 @@ import '../styles/estilos.css'
 import Logo from './Logo.jsx'
 import Hamburguesa from '../assets/icon/menu-hamburguesa.svg'
 import Temas from './CambioColores.jsx'
-import BotonSecundario from './BotonSecundario.jsx'
+import Boton from './Boton.jsx'
 
 function Header() {
   return (
@@ -26,7 +26,7 @@ function Header() {
                         <Temas/>
                     </li>
                     <li className="boton-colabora-menu">
-                        <BotonSecundario texto="COLABORA" url="#seccion-3-colabora"/>
+                        <Boton texto="COLABORA" url="#seccion-3-colabora" clases="boton-secundario boton-nav"/>
                     </li>
                 </ul>
                 <img 

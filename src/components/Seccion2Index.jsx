@@ -1,6 +1,8 @@
 import '../styles/estilos.css'
-import BotonSecundario from './BotonSecundario.jsx'
+import Boton from './Boton.jsx'
+import Carrousel from './Carrousel.jsx'
 
+const UrlsCarru = "./src/assets/carrousel/gato-rubio-durmiendo.jpg,./src/assets/carrousel/gato-rubio-durmiendo.jpg,./src/assets/carrousel/gato-rubio-durmiendo.jpg";
 
 
 function Seccion2() {
@@ -25,38 +27,7 @@ function Seccion2() {
                     <a href="src/contacto.html"><span className="boton-primario">Contacto</span></a>
                 </div>
             </div>
-            <div className="imagenes carrousel">
-                <div className="grande">
-                    <img src="img/gato-rubio-durmiendo.jpg"  
-                        className="elementos" 
-                        title="Tarzán, gato rescatado que se adoptó en junio de 2023" 
-                        alt="gatito rubio durmiendo boca arriba"/>
-                    <video src="img/video-gatos-durmiendo.mp4" 
-                        className="elementos" 
-                        autoPlay muted loop 
-                        title="Tarzán y Aladín, dos gatos rubios rescatados durmiendo en una manta de pelos">
-                    </video>
-                    <img src="img/gatito-rubio-de-cerca.jpg"  
-                    className="elementos" 
-                    title="Tarzán, gato rescatado que se adoptó en junio de 2023" 
-                    alt="gato rubio de cerca"/>
-                    <img src="img/gato-acostado-en-cama-celeste.jpg"  
-                    className="elementos" 
-                    title="Aladín, gato rescatado que se adoptó en junio de 2023" 
-                    alt="gato acostado en cama celeste"/>
-                </div>
-                <ul className="puntos">
-                    <li className="punto punto-activo"></li>
-                    <li className="punto"></li>
-                    <li className="punto"></li>
-                    <li className="punto"></li>
-                </ul>
-            </div>
-            <div className="lightbox">
-                <button className="cerrar boton-primario">X</button>
-                <img src="/img/icon/gato(3).png" className="img-grande" alt=""/>
-                <video src="/img/icon/gato(3).png" className="video-grande" controls loop muted></video>
-            </div>
+            <Carrousel urls={UrlsCarru} />
         </section>
         </>
     )

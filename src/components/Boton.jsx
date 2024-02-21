@@ -1,8 +1,9 @@
 import '../styles/estilos.css'
 
-function BotonSecundario(props) {
+function Boton(props) {
     const Texto = props.texto;
     const Url = props.url;
+    const Clases = props.clases;
     
     return (
         <>
@@ -13,4 +14,4 @@ function BotonSecundario(props) {
     )
 }
 
-export default BotonSecundario
+export default Boton

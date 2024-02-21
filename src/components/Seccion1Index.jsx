@@ -1,5 +1,5 @@
 import '../styles/estilos.css'
-import BotonSecundario from './BotonSecundario.jsx'
+import Boton from './Boton.jsx'
 
 
 
@@ -17,7 +17,7 @@ function Seccion1() {
                 </p>
                 <div className="botones">
                     <a href="src/quienes-somos.html"><span className="boton-primario">SABER MÁS</span></a>
-                    <BotonSecundario texto="COLABORA" url="#seccion-3-colabora"/>
+                    <Boton texto="COLABORA" url="#seccion-3-colabora"/>
                 </div>
             </div>
         </section>

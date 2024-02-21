@@ -1,5 +1,5 @@
 import '../styles/estilos.css'
-import BotonSecundario from './BotonSecundario.jsx'
+import Boton from './Boton.jsx'
 import '../script/index.js'
 
 
