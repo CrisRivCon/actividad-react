@@ -40,6 +40,8 @@ h1{
 h2,
 h3 {
   font-size: 1.6em;
+  font-weight: 500;
+
 }
 
 .enlace-3 {
@@ -48,6 +50,7 @@ h3 {
 
 a {
   text-decoration: none;
+  font-weight: 500;
 }
 
 
@@ -93,6 +96,7 @@ a {
 .boton-terciario {
   border-radius: 20px;
   font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
   display: inline-block;
   height: 50px;
   text-align: center;
@@ -339,7 +343,7 @@ ul.breadcrumb li a:hover {
 }
 
 .fondo-seccion-1 {
-  background-image: url('../img/disparo-horizontal-dos-gatos-sentados-sobre-fondo-borroso.jpg');
+  background-image: url('./src/assets/fondos/disparo-horizontal-dos-gatos-sentados-sobre-fondo-borroso.jpg');
   background-size: cover;
   position: absolute;
   background-position: center;
