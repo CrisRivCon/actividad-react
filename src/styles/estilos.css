@@ -707,17 +707,6 @@ div.botones {
 
 /*______________________________Sección 3 Home_____________________________*/
 
-.seccion-3 {
-  display: grid;
-  grid-template: 70vh / 10% minmax(180px, 20vw) minmax(550px, 80vw);
-  padding-top: 20vh;
-}
-
-.fondo-seccion-3 {
-  background-image: url('../img/fondo-colabora.JPG');
-  box-shadow: 3px 3px 3px #555962;
-}
-
 .tabs {
   width: 80%;
   position: relative;

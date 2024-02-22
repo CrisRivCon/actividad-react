@@ -16,8 +16,8 @@ function Seccion1() {
                     Dedicadas al cuidado y rescate de los gatos sin hogar <br/> en Chipiona.
                 </p>
                 <div className="botones">
-                    <a href="src/quienes-somos.html"><span className="boton-primario">SABER MÁS</span></a>
-                    <Boton texto="COLABORA" url="#seccion-3-colabora"/>
+                    <Boton texto="SABER MAS" url="/" clases="boton-primario"/>
+                    <Boton texto="COLABORA" url="#seccion-3-colabora" clases="boton-secundario"/>
                 </div>
             </div>
         </section>

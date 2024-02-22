@@ -1,0 +1,34 @@
+{
+    "articulos": [
+        {
+           "codigo": 1,
+           "nombre": "Camiseta",
+           "descripcion": "Camiseta con el logo",
+           "precio": 20
+        },
+        {
+            "codigo": 1,
+            "nombre": "Camiseta",
+            "descripcion": "Camiseta con el logo",
+            "precio": 20
+         },
+         {
+            "codigo": 1,
+            "nombre": "Camiseta",
+            "descripcion": "Camiseta con el logo",
+            "precio": 20
+         },
+         {
+            "codigo": 1,
+            "nombre": "Camiseta",
+            "descripcion": "Camiseta con el logo",
+            "precio": 20
+         },
+         {
+            "codigo": 1,
+            "nombre": "Camiseta",
+            "descripcion": "Camiseta con el logo",
+            "precio": 20
+         }
+    ]
+}
