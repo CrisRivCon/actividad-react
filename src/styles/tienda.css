@@ -1,4 +1,3 @@
-
 .seccion-3 {
   display: flex;
   flex-direction: column;
@@ -31,7 +30,8 @@
   box-shadow: 3px 3px 3px #555962;
   height: 388px;
   min-width: 289px;
-  width: 300px;
+  max-width: 333px;
+  width: 17.3vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -61,4 +61,21 @@
 
 .boton-tienda .boton-primario {
   width: 100%;
+}
+
+.numero-articulos {
+  border: 2px solid red;
+  border-radius: 50%;
+  padding: 0.3em;
+  width: 26px;
+  height: 26px;
+  font-size: 14px;
+  position: absolute;
+  right: 15px;
+  top: 3px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
 }

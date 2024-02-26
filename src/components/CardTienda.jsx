@@ -5,7 +5,7 @@ import Boton from './Boton'
 
 export default function Card(props) {
     const { Nombre, Descripcion, Precio } = props;
-
+    
     return (
         <div className="card">
             <h3>{Nombre}</h3>
@@ -13,7 +13,7 @@ export default function Card(props) {
             <p className="descripcion">{Descripcion}
             </p>
             <p>{Precio}€</p>
-            <Boton texto="Añadir al carrito" urls="/" clases="boton-primario" tienda />
+            <Boton texto="Añadir al carrito" urls="/" clases="boton-primario" tienda={props}  />
         </div>
     )
 }

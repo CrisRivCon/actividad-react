@@ -13,7 +13,9 @@ export default function HomePage() {
                 <h2>Colabora</h2>
             </div>
             <div className="cards">
-                {articulos.map((articulo) => <Card Nombre={articulo.nombre} 
+                {articulos.map((articulo) => <Card key={articulo.codigo} 
+                                                    Codigo={articulo.codigo}
+                                                    Nombre={articulo.nombre} 
                                                     Descripcion={articulo.descripcion}
                                                     Precio={articulo.precio}/>)}
             </div>     

@@ -7,25 +7,25 @@
            "precio": 20
         },
         {
-            "codigo": 1,
+            "codigo": 2,
             "nombre": "Camiseta",
             "descripcion": "Camiseta con el logo",
             "precio": 20
          },
          {
-            "codigo": 1,
+            "codigo": 3,
             "nombre": "Camiseta",
             "descripcion": "Camiseta con el logo",
             "precio": 20
          },
          {
-            "codigo": 1,
+            "codigo": 4,
             "nombre": "Camiseta",
             "descripcion": "Camiseta con el logo",
             "precio": 20
          },
          {
-            "codigo": 1,
+            "codigo": 5,
             "nombre": "Camiseta",
             "descripcion": "Camiseta con el logo",
             "precio": 20
