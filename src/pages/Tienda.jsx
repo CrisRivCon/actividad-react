@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/estilos.css'
 import '../styles/tienda.css'
 import Card from '../components/CardTienda'
-import Articulos from '../datos//articulos.json'
+import Articulos from '../datos/articulos.json'
 
 export default function HomePage() {
     const articulos = Articulos.articulos;
