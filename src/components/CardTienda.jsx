@@ -3,6 +3,7 @@ import '../styles/estilos.css'
 import Logo from '../components/Logo'
 import Boton from './Boton'
 
+
 export default function Card(props) {
     const { Nombre, Descripcion, Precio } = props;
     

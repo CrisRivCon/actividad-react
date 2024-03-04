@@ -20,9 +20,7 @@ function Header() {
                     <li>
                         <Temas/>
                     </li>
-                    <li>
-                        <Carrito/>
-                    </li>
+
                 </ul>
                 <img 
                     className="icono-menu" 
@@ -30,6 +28,7 @@ function Header() {
                     src={Hamburguesa}
                     title="desplegar menú"
                     alt="desplegar menú"/>
+                    <Carrito/>
             </div>
         </nav>
     </header>

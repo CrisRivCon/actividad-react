@@ -11,13 +11,17 @@ function Boton(props) {
         if (tienda) {
             const articulo = props.tienda;
             const {Codigo} = articulo;
-            let valor = 0;
+            const [carrito, setCarrito] = useState("");
+            let objetoCarrito = {};
 
-            if (getValueCookie(Codigo)) {
-                valor = getValueCookie(Codigo);
+            if (getValueCookie("carrito")) {
+                setCarrito(JSON.parse(getValueCookie("carrito")))
+                console.log(carrito);
             } else {
-                let cantidad = getValueCookie('cantidad') ? Number(getValueCookie('cantidad')) + 1 : 1;
-                setCookie('cantidad', cantidad, 30);
+                objetoCarrito[Codigo] = 1;
+                setCarrito(JSON.stringify(objetoCarrito));
+                setCookie('carrito', carrito, 30);
+                console.log(carrito);
             }
             
             setCookie(Codigo, Number(valor) + 1, 30);
