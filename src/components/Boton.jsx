@@ -7,7 +7,6 @@ function Boton(props) {
     const {texto, url, clases, tienda} = props;
     const [carrito, setCarrito] = useState("");
 
-
     function anyadir() {
         if (tienda) {
             const articulo = props.tienda;
