@@ -12,10 +12,15 @@ export default function HomePage() {
 
   useEffect(() => {
     fetch('https://fakestoreapi.com/products/')
+        .then(response => {
+            if (!response.ok) throw new Error('Algo ha ido mal.');
+            return response;
+        })
         .then(res => res.json())
         .then((articulos) => {
             setArticulos(articulos)
           })
+          .catch(error => console.log(error));
       }, [])
 
     return (
