@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import '../styles/estilos.css'
 import '../styles/tienda.css'
 import Card from '../components/CardTienda'
-import Articulos from '../datos/articulos.json'
 // https://fakestoreapi.com/
 
 

@@ -13,7 +13,7 @@ export default function Card(props) {
             <p className="descripcion trunc">{Descripcion}
             </p>
             <p>{Precio}€</p>
-            <Boton texto="Añadir al carrito" urls="/" clases="boton-primario" tienda={props}  />
+            <Boton texto="Añadir al carrito" clases="boton-primario" tienda={props}  />
         </div>
     )
 }

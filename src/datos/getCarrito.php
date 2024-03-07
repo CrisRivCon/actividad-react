@@ -1,7 +1,6 @@
 <?php
 // Variables
 $url = 'articulos.json';
-$id = $_GET['id'];
 header("Access-Control-Allow-Origin: *");
 
 
@@ -10,12 +9,4 @@ $contenido = file_get_contents($url);
 
 $articulosCarrito = json_decode($contenido, true);
 
-
-if (isset($articulosCarrito[$id])) {
-    $articulosCarrito[$id]++;
-} else {
-    $articulosCarrito[$id] = 1;
-}
-
-file_put_contents($url, json_encode($articulosCarrito));
 echo json_encode($articulosCarrito);
