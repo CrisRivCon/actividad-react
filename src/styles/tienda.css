@@ -48,11 +48,18 @@
   height: 55px;
   width: 55px;
 }
+.trunc {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 90%;
+}
 
 .card .descripcion {
   font-weight: lighter;
   text-align: center;
   width: 100%;
+
 }
 
 .boton-tienda {
