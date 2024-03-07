@@ -1,9 +1,7 @@
 import '../styles/estilos.css'
 import CarritoImg from '../assets/icon/carrito.png'
-import getValueCookie from './GetCookies';
 
 export default function Carrito() {
-    const cantidad = getValueCookie('cantidad');
 
     return (
         <div>

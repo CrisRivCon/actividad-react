@@ -31,7 +31,7 @@ export default function HomePage() {
                 </div>
                 <div className="cards">
                     {articulos.map((articulo) => <Card key={articulo.id}
-                                                        Codigo={articulo.codigo}
+                                                        Codigo={articulo.id}
                                                         Nombre={articulo.title}
                                                         Descripcion={articulo.description}
                                                         Precio={articulo.price} />)}

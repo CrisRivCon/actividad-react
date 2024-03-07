@@ -1,31 +1,21 @@
-import { useState } from 'react';
 import '../styles/estilos.css'
-import setCookie from './SetCookies';
-import getValueCookie from './GetCookies';
+const rutaServidor = 'http://localhost:8008/src/datos/carrito.php'
 
 function Boton(props) {
-    const {texto, url, clases, tienda} = props;
-    const [carrito, setCarrito] = useState("");
+    const { texto, url, clases, tienda } = props;
 
     function anyadir() {
         if (tienda) {
             const articulo = props.tienda;
-            const {Codigo} = articulo;
-            let objetoCarrito = {};
-
-            if (getValueCookie("carrito")) {
-                objetoCarrito = JSON.parse(getValueCookie("carrito"));
-                console.log("objetoCarrito" , objetoCarrito);
-                objetoCarrito[Codigo] = objetoCarrito[Codigo] + 1;
-                setCarrito(JSON.stringify(objetoCarrito));
-
-                console.log(carrito, 'Existe carrito');
-            } else {
-                objetoCarrito[Codigo] = 1;
-                setCarrito(JSON.stringify(objetoCarrito));
-            }
-            
-            setCookie("carrito", carrito, 30);
+            const { Codigo } = articulo;
+            fetch(`${rutaServidor}?id=${Codigo}`, {
+                'mode': 'no-cors',
+            })
+                .then(response => {
+                    if (!response.ok) throw new Error('Error');
+                    return response;
+                })
+                .catch(error => console.log(error));
         }
     }
 
