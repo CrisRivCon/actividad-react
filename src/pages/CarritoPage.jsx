@@ -10,10 +10,10 @@ export default function HomePage({articulos, setArticulos, cantidad, setCantidad
         <main>
             <section id="seccion-3-colabora" className="seccion-3 fondo-seccion-3">
                 <div className="texto-secc-3">
-                    <h2>Colabora</h2>
+                    <h2>Carrito</h2>
                 </div>
                 <div className="cards">
-                    {articulos.map((articulo) => <Card key={articulo.id}
+                    {carrito.map((articulo) => <Card key={articulo.id}
                                                         articulo={articulo}
                                                         cantidad={cantidad}
                                                         setCantidad={setCantidad}

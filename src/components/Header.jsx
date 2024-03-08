@@ -5,7 +5,7 @@ import Hamburguesa from '../assets/icon/menu-hamburguesa.svg'
 import Temas from './CambioColores.jsx'
 import Carrito from './CarritoImg.jsx'
 
-function Header() {
+function Header({carrito, setCarrito, cantidad, setCantidad}) {
   return (
       <header>
         <nav>
@@ -28,7 +28,10 @@ function Header() {
                     src={Hamburguesa}
                     title="desplegar menú"
                     alt="desplegar menú"/>
-                    <Carrito/>
+                    <Carrito cantidad={cantidad}
+                            setCantidad={setCantidad}
+                            carrito={carrito}
+                            setCarrito={setCarrito}/>
             </div>
         </nav>
     </header>
