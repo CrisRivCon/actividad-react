@@ -17,7 +17,7 @@ function Seccion1() {
                 </p>
                 <div className="botones">
                     <Boton texto="SABER MAS" url="/" clases="boton-primario"/>
-                    <Boton texto="COLABORA" url="#seccion-3-colabora" clases="boton-secundario"/>
+                    <Boton texto="COLABORA" url="/tienda" clases="boton-secundario"/>
                 </div>
             </div>
         </section>

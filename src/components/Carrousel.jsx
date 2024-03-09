@@ -1,6 +1,6 @@
 import '../styles/estilos.css'
 
-export default function Boton(props) {
+export default function Carrousel(props) {
     const Urls = props.urls.split(',');
     return (
         <>

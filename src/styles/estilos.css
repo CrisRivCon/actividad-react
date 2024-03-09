@@ -108,6 +108,14 @@ a {
     inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 }
 
+.boton-carrito{
+  width: 50px;
+
+}
+
+.botones-carrito {
+  width: 150px;
+}
 span.boton-primario,
 span.boton-secundario,
 span.boton-terciario {

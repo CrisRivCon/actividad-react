@@ -1,5 +1,4 @@
 import '../styles/estilos.css'
-import Boton from './Boton.jsx'
 import Carrousel from './Carrousel.jsx'
 
 const UrlsCarru = "./src/assets/carrousel/gato-rubio-durmiendo.jpg,./src/assets/carrousel/gato-rubio-durmiendo.jpg,./src/assets/carrousel/gato-rubio-durmiendo.jpg";

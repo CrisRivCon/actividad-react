@@ -54,6 +54,9 @@
   text-overflow: ellipsis;
   width: 90%;
 }
+.texto-carrito {
+  width: 600px;
+}
 
 .card .descripcion {
   font-weight: lighter;
